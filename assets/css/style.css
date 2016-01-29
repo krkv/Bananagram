@@ -1,0 +1,113 @@
+html,
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body {
+    background-color: #ffbf00;
+    color: #fff;
+}
+.header,
+.comments,
+.upload-text,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Header */
+.header {
+    padding-bottom: 20px;
+    border-bottom: 0px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    padding-top: 19px;
+    color: #fff;
+    border-top: 0px solid #e5e5e5;
+    text-align: center;
+}
+footer a, footer a:hover {
+    color: #fff;
+}
+
+/* Container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #ffbf00;
+}
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+/* Comments */
+.comments, .upload-text {
+    margin: 40px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .comments,
+    .upload-text,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* Nav buttons */
+nav a {
+    color: #fff;
+}
+nav a:hover {
+    color: #000;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #5CB85C;
+}
+
+/* Images */
+.banana {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Upload and comments */
+.help-block {
+    color: #fff;
+}
+.upload-text label, .comments label {
+    font-size: 1.5em;
+}
+.comments label, .comments h3 {
+    margin-top: 28px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.panel-body {
+    color: #000;
+}
+.panel-footer {
+    color: #666;
+    font-size: 0.8em;
+}

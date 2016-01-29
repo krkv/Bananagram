@@ -6,5 +6,6 @@ An example image sharing web app
 * Bootstrap (https://www.codeigniter.com/)
 
 ## Setup
-* `application/config/config.php` (base URL)
-* `application/config/database.php` (database connection info)
+* `application\config\config.php` (base URL)
+* create databse, import `sql\bananagram.sql`
+* `application\config\database.php` (database connection info)
